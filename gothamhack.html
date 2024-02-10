@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gotham.css">
+    <title>Authentication</title>
+</head>
+<body>
+    <div id="auth-container">
+        <div id="instructions">
+            <h2>Instructions</h2>
+            <p>Enter your username and password to log in. If you forgot your password, click on "Forgot Password?" to reset it. If you don't have an account, click on "Create an Account" to register.</p>
+        </div>
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            
+            <div class="auth-options">
+                <a href="#" id="forgot-password">Forgot Password?</a>
+                <span> | </span>
+                
+            </div>
+
+            <button type="submit">Login</button>
+            <a href="reg.html" id="create-account" >Create an Account</a>
+        </form>
+    </div>
+
+    <script src="gotham.js"></script>
+</body>
+</html>
